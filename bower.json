@@ -1,0 +1,32 @@
+{
+  "name": "jquery.picplus.lazyload",
+  "version": "0.0.0",
+  "authors": [
+    "Matthew Tretter <m@tthewwithanm.com>",
+    "Eric Eldredge <lettertwo@gmail.com>"
+  ],
+  "description": "Defer the loading of your picplus images until they're scrolled into the viewport.",
+  "main": "jquery.picplus.lazyload.js",
+  "keywords": [
+    "jquery",
+    "image",
+    "picture",
+    "picplus",
+    "load",
+    "responsive",
+    "svg"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/matthewwithanm/jquery.picplus.lazyload",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.picplus": "~1.0",
+    "scrollMonitor": "~1.0.7"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "jquery.picplus.lazyload",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add lazyloading to picplus!",
   "author": "Matthew Tretter <m@tthewwithanm.com>",
   "main": "jquery.picplus.lazyload.js",

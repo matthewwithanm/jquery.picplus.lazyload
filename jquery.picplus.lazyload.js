@@ -3,11 +3,15 @@
     'use strict';
 
     $.picplus.config().plugins.push({
-        initialize: function (picplus) {
-            var watcher = window.scrollMonitor.create(picplus.$el[0]);
-            watcher.enterViewport(function () {
-                picplus.load();
-            });
+        create: function (picplus) {
+            return {
+                initialize: function () {
+                    var watcher = window.scrollMonitor.create(picplus.$el[0]);
+                    watcher.enterViewport(function () {
+                        picplus.load();
+                    });
+                }
+            };
         }
     });
 

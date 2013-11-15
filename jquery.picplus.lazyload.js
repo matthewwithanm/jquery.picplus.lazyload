@@ -2,7 +2,7 @@
 (function ($) {
     'use strict';
 
-    $.picplus.config().plugins.push({
+    $.picplus.addPlugin({
         create: function (picplus) {
             return {
                 initialize: function () {
